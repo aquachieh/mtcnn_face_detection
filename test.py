@@ -31,4 +31,4 @@ for j, face in enumerate(bounding_boxes):
     print ("---",j)
     print (face)
     imagePILDraw.line([(face[0],face[1]),(face[2],face[1]),(face[2],face[3]),(face[0],face[3]),(face[0],face[1])], fill=(255,0,0),width=4)
-imagePIL.save("/media/sophiewang/DATA/mtcnn/sample/s0_b.jpg")
+imagePIL.save("/.../s0_b.jpg")
